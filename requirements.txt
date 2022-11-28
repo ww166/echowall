@@ -1,0 +1,2 @@
+rocketmq-client-python==2.0.0
+snowflake-id

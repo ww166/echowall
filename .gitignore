@@ -1,0 +1,23 @@
+.DS_Store
+.idea
+.vscode
+
+# 文件夹
+__pycache__
+*egg-info
+venv
+logs
+TEMP_DATA
+build
+dist
+
+# 本地文件
+dump.rdb
+*.log
+
+pyvenv.cfg
+nohup.out
+
+# venv
+venv
+/build/
