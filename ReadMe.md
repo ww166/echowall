@@ -1,23 +1,8 @@
-### 项目简介
-  - 项目代号：EchoWall-回音壁
-  - 项目定位：通用消息中间件兼容层
-  - 项目功能：消息中间件配置，消息、消费者、生产者的统一封装
-  - 详细描述： 目前仅针对 RocketMQ 进行封装。
+消息中间件配置，消息、消费者、生产者的统一封装,目前仅针对 RocketMQ 进行封装。
 
 ### rocket_mq
-- 版本
+- 版本 4.9+
 - python 3.6
-
-#### 打包与安装(whl)
-- 打包: `python setup.py sdist bdist_wheel`
-- 安装: `pip install echowall-2.6.0-py3-none-any.whl`
-
-#### 打包与安装(egg)
-- 打包: python setup.py bdist_egg
-- 安装 egg:
-    - 解压 pf_mq_sdk-0.1-py3.6.egg 源码包
-    - cd pf_mq_sdk-0.1-py3.6.egg
-    - python setup.py install
 
 #### 依赖环境
 - librocketmq
